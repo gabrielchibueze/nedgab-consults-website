@@ -1,0 +1,44 @@
+.createBlog__wrapper h1 {
+  margin: 2rem 0rem;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #14a800;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.createBlog__wrapper .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #14a800;
+  color: #fff;
+  margin: 1rem 0rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+  font-weight: 600;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.createBlog__wrapper .btn:hover {
+  background-color: #14a800 !important;
+  color: #fff !important;
+}
+
+.createBlog__button-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.createBlog__button-wrapper .btn:last-child{
+  background-color: #ff9600 !important;
+
+
+}

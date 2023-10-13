@@ -1,0 +1,13 @@
+.viewAllFiles .btn, .viewAllFiles .btn:hover{
+    background-color: #14a800 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.viewAllFiles .fileName{
+    text-transform: capitalize;
+}
+
+.viewAllFiles .download{
+    margin-left: 2rem;
+}

@@ -1,0 +1,65 @@
+.card-body {
+  overflow: scroll;
+}
+
+.applicationZero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(80vh - 70px);
+}
+
+.applicationZero h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.dashboard__btn-wrapper .btn {
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  background-color: #14a800 !important;
+  color: #fff;
+  border: 2px solid #14a800 !important;
+}
+
+.dashboard__btn-wrapper .btn:hover {
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  background-color: #14a800 !important;
+  color: #fff;
+  border: 2px solid #14a800 !important;
+}
+
+.dashboard__btn-wrapper .dropdown-item {
+       padding-top: .5rem !important;
+       padding-bottom: .5rem !important;
+
+}
+
+.dropdown-item:active {
+    background-color: #efefef !important;
+    color: #111 !important;
+}
+
+
+@media (max-width: 568px) {
+  .card-header {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .card-header .col-6,
+  .card-header .col-4 {
+    width: 100% !important;
+  }
+
+  .dashboard__btn-wrapper .btn {
+    border: 2px solid #14a800;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    background-color: #efefef;
+  }
+
+}

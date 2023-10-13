@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containers {
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+/*To remove the arrow up and down on input field type number for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/*o remove the arrow up and down on input field type number for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
